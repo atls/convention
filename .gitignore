@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules
+.yarn-cache
+
+# Optional npm cache directory
+.npm
+
+# Auth
+.netrc
+
+# IDE cache directory
+.idea
+
+# MacOS temporary files
+.DS_Store
+
+# Local data
+.data
+
+# build files
+build
+dist
+.next
+
+# env vars
+.env
+
+# Google Cloud Credentials
+credentials.json
