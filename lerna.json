@@ -1,6 +1,8 @@
 {
   "packages": [
-    "packages/*"
+    "onboarding/**/*",
+    "working-env/**/*",
+    "working-with-git/**/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
