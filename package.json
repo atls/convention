@@ -3,5 +3,9 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
-  "workspaces": ["packages/**/*"]
+  "workspaces": [
+    "onboarding/**/*",
+    "working-env/**/*",
+    "working-with-git/**/*"
+  ]
 }
