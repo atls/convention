@@ -1,8 +1,5 @@
 {
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
   "workspaces": [
     "onboarding/**/*",
     "working-env/**/*",
