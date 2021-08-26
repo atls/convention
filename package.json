@@ -1,11 +1,11 @@
 {
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.22.1"
-  },
   "workspaces": [
     "onboarding/**/*",
     "working-env/**/*",
     "working-with-git/**/*"
-  ]
+  ],
+  "devDependencies": {
+    "@atls/actl-cli": "^0.4.48"
+  }
 }
