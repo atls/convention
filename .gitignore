@@ -34,3 +34,7 @@ dist
 
 # Google Cloud Credentials
 credentials.json
+
+# unique for each install yarn states
+.yarn/build-state.yml
+.yarn/install-state.gz
