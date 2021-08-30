@@ -44,12 +44,11 @@ Url источника данных указывается в `ApolloProvider`. 
 
 ```javascript
 import React from 'react'
-import { List } from '@ui/list' t { gql } from '@apollo/client'
-import { useQuery } from '@apol
-import { Text } from '@ui/text'
 import { FC } from 'react'
 import { gql } from '@apollo/client'
 import { useQuery } from '@apollo/client'
+import { List } from '@ui/list' 
+import { Text } from '@ui/text'
 
 const TodoList: FC = () => {
   // пишем graphql запрос
@@ -150,6 +149,8 @@ const useData = () => {
 ```javascript
 import React from 'react'
 import { FC } from 'react'
+import { List } from '@ui/list' 
+import { Text } from '@ui/text'
 
 import { useData } from './data'
 
@@ -158,10 +159,8 @@ const TodoList: FC = () => {
 
   return (
     <>
-      {loading && <h1>Loading</h1>}
-      {tasks.map((task) => (
-        <h1>{task}</h1>
-      ))}
+      {loading && <Text>Loading...</Text>}
+      {data && <List items={tasks} />}
     </>
   )
 }
