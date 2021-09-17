@@ -50,7 +50,7 @@ import { FC } from 'react'
 import { gql } from '@apollo/client'
 import { useQuery } from '@apollo/client'
 const TodoList: FC = () => {
-   // пишем graphql запро
+   // пишем graphql запрос
   const GET_TASKS = gql`
     query GetTasks {
       tasks {
@@ -59,7 +59,7 @@ const TodoList: FC = () => {
       }
     }
   `
-  const { data, loading, error } = useQuery(GET_TASKS)  // исполняем запро
+  const { data, loading, error } = useQuery(GET_TASKS)  // исполняем запрос
   return (
     <>
       {/* Если идет загрузка - рисуем Loading... */}
