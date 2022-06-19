@@ -38,7 +38,7 @@
 
 **Через aptitude:**
 
-`apt install nodejs@16`
+`apt install nodejs=16`
 
 ## 4. yarn
 
