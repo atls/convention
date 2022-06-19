@@ -36,24 +36,27 @@
 
 ### Как ставить?
 
-Через [официальный сайт](https://nodejs.org/en/) или [nvm](https://github.com/nvm-sh/nvm)
+**Через aptitude:**
 
-## 4. yarn (установленный через npm)
+`apt install nodejs=16`
 
-### Что за npm и как его ставить?
-
-Это пакетный менеджер для ноды. Он ставится вместе с нодой, отдельной установки не требуется.
-
-### Как установить с его помощью yarn?
-
-`npm i -g yarn`
-
-- `i` - [alias](https://ru.wikipedia.org/wiki/Alias) для `npm install`
-- `-g` - флаг для команды [install](https://docs.npmjs.com/cli/v6/commands/npm-install)
+## 4. yarn
 
 ### Что такое yarn?
 
-Тоже пакетный менеджер, использующийся у нас на проектах.
+Yarn — это альтернативный npm-клиент для работы в качестве пакетного менеджера JavaScript, совместно созданный Facebook, Google, Exponent и Tilde. Этот менеджер пакетов ускоряет сборку пакетов и делает её более безопасной.
+
+NPM в файле package.json фиксирует не конкретную версию используемых пакетов, а их диапазон. Таким образом, стратегия стандартного клиента npm может привести к тому, что на основе идентичных файлов package.json в разное время будут установлены различные версии пакетов. Yarn решает эту проблему, так как позволяет точно зафиксировать зависимости в файле yarn.lock
+
+Последовательная установка пакетов через npm заметно замедляет работу. Yarn же поддерживает параллельную установку, что обычно в несколько раз быстрее.
+
+По сути, Yarn — отличная замена npm. В своей работе мы используем именно его.
+
+### Как ставить
+
+**Тоже через aptitude:**
+
+`apt install --no-install-recommends yarn`
 
 ## 5. Email
 
@@ -63,5 +66,5 @@
 
 - [Настроить 2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) для своего Github аккаунта
 - Настроить [проверку подписи коммитов (GPG)](https://docs.github.com/en/authentication/managing-commit-signature-verification)
-- Авто подпись коммитов (настраивается в git)
+- Авто подпись коммитов (настраивается в git) `git config --global commit.gpgsign true`
 - [Настроить подключение к Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) через [SSH](https://ru.wikipedia.org/wiki/SSH)
