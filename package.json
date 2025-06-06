@@ -1,11 +1,15 @@
 {
   "private": true,
+  "type": "module",
   "workspaces": [
     "onboarding/**/*",
     "working-env/**/*",
-    "working-with-git/**/*"
+    "working-with-git/**/*",
+    "convention"
   ],
   "devDependencies": {
-    "@atls/actl-cli": "^0.4.48"
-  }
+    "@atls/code-runtime": "^2.1.9",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "yarn@4.9.2"
 }
