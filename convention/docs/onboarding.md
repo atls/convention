@@ -25,9 +25,7 @@
 ## Keys
 
 - Настраиваем [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- Настраиваем [GPG](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
-  > [!TIP]
-  > Рекомендуем клиент — [GPGTools](https://gpgtools.org)
+- Настаиваем подпись коммитов через [SSH](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
 - Проверяем [подпись коммита](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)
 
 ---
