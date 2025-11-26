@@ -207,14 +207,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atls/code-runtime@npm:^2.1.9":
-  version: 2.1.9
-  resolution: "@atls/code-runtime@npm:2.1.9"
+"@atls/code-runtime@npm:2.1.15":
+  version: 2.1.15
+  resolution: "@atls/code-runtime@npm:2.1.15"
   dependencies:
-    "@atls/config-eslint": "npm:2.0.8"
+    "@atls/config-eslint": "npm:2.0.9"
     "@atls/config-prettier": "npm:2.0.3"
-    "@atls/config-typescript": "npm:2.0.1"
-    "@atls/webpack-proto-imports-loader": "npm:1.0.1"
+    "@atls/config-typescript": "npm:2.0.3"
+    "@atls/webpack-proto-imports-loader": "npm:1.0.4"
     "@svgr/core": "npm:8.1.0"
     "@svgr/plugin-jsx": "npm:8.1.0"
     eslint: "npm:9.22.0"
@@ -225,13 +225,13 @@ __metadata:
     ts-node: "npm:10.9.2"
     typescript: "npm:5.5.4"
     webpack: "npm:5.98.0"
-  checksum: 10/66f6b2b0f4b924b2eb08fdad49c3db7c61d28cd54c745bb410f5d735183bc3718cdf1e0e2e598242167b69fd255a4f0d41c0a67ac7d510dc666d966f0019877b
+  checksum: 10/d610672b2ffbe5699e002ea6a6a0030191b6de71d83fef65b74617a1c0ea1d9d07d8340e89f7217e4bcfeb0554487e442c2bbfb150ddf0099666e59bf888daac
   languageName: node
   linkType: hard
 
-"@atls/config-eslint@npm:2.0.8":
-  version: 2.0.8
-  resolution: "@atls/config-eslint@npm:2.0.8"
+"@atls/config-eslint@npm:2.0.9":
+  version: 2.0.9
+  resolution: "@atls/config-eslint@npm:2.0.9"
   dependencies:
     "@atls/config-prettier": "npm:2.0.3"
     "@next/eslint-plugin-next": "npm:15.2.1"
@@ -252,7 +252,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/d461d44d6adf94021123a1f4c0dde089b8dc19d070a2f9cf5ea546fc7fd3ee6af3869bfd90a591468c55f733a47ccd557b95085e5a018828e62de0eb131ae18b
+  checksum: 10/28377166b2edeab0936dbe1c958622dd75893f9066f533d7cf67d713bd2b5460ca20a82fe2fb96ef34d98f4fc5db700c3210c1b5b1c0236dc379f0ea0b6e4e0c
   languageName: node
   linkType: hard
 
@@ -265,21 +265,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@atls/config-typescript@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@atls/config-typescript@npm:2.0.1"
-  checksum: 10/c5ab45783935031ab96b53857f246379e69b61304607048e39cae6067c08222725d19fb057f097ea233f1e5461b698b7f965f7061aff66b35a2bf18b3e6cd237
+"@atls/config-typescript@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@atls/config-typescript@npm:2.0.3"
+  checksum: 10/89c3b651e0f90c56d77162d5f3781a0a44a9eae4c51936118b846fa420c0a66bebe3ac825c24027dbdfb9a6a9254e1c00a8c3cefe6a76311bed29d9ea6eddcc0
   languageName: node
   linkType: hard
 
-"@atls/webpack-proto-imports-loader@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@atls/webpack-proto-imports-loader@npm:1.0.1"
+"@atls/webpack-proto-imports-loader@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@atls/webpack-proto-imports-loader@npm:1.0.4"
   dependencies:
     file-loader: "npm:6.2.0"
     protocol-buffers-schema: "npm:3.6.0"
     tslib: "npm:2.8.1"
-  checksum: 10/24104e948437245a25dc7baf8a15907aa4b063527ad0408567f8314ee87a03122c0665b5c88ebfec63401c18d47b52791316e344a84648115074e98eb1965459
+  checksum: 10/efbfea603e0323bf7164a765296de4a9f4a11df675799e3edec8e1315ce660aad5467dc74016f890841a015a66fd5344fb61ce505fb049f58df92828527c2a82
   languageName: node
   linkType: hard
 
@@ -3070,12 +3070,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@onboarding/principles@workspace:onboarding/principles":
-  version: 0.0.0-use.local
-  resolution: "@onboarding/principles@workspace:onboarding/principles"
-  languageName: unknown
-  linkType: soft
-
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -4079,18 +4073,6 @@ __metadata:
   checksum: 10/cef09aad2fcd291bfcf9efdae2ea1e961a1ba0f925d1d9dcdd8c746d32fbaf431b6d26a0241699c0e39f82139018aa720b4ceb84ac6f4c78f13072747480db69
   languageName: node
   linkType: hard
-
-"@working-env/ide@workspace:working-env/ide":
-  version: 0.0.0-use.local
-  resolution: "@working-env/ide@workspace:working-env/ide"
-  languageName: unknown
-  linkType: soft
-
-"@working-with-git/branches@workspace:working-with-git/branches":
-  version: 0.0.0-use.local
-  resolution: "@working-with-git/branches@workspace:working-with-git/branches"
-  languageName: unknown
-  linkType: soft
 
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
@@ -12542,7 +12524,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@atls/code-runtime": "npm:^2.1.9"
+    "@atls/code-runtime": "npm:2.1.15"
     typescript: "npm:5.5.4"
   languageName: unknown
   linkType: soft
